@@ -77,10 +77,12 @@
             </button>
         </section>
     </header>
+
     <main class="bg-gray-100 mt-[40px] lg:mt-[100px] px-2">
         <!-- liveable space section -->
-        <section class="flex flex-col lg:flex-row container mx-auto justify-between pt-[32px] lg:pt-[100px]">
-            <div class="space-y-5 lg:w-1/2">
+        <section class="relative flex flex-col lg:flex-row container mx-auto justify-between pt-[32px] lg:pt-[100px]">
+            <img class="hidden lg:flex absolute top-12 -left-16" src="assets/Vector.png" alt="">
+            <div class="space-y-5 lg:w-1/2 ">
                 <button class="btn bg-white flex items-center rounded-[32px] mx-auto lg:mx-0">
                     <i class="fa-solid fa-arrow-right"></i>
                     <p class="font-bold">About Us</p>
@@ -112,7 +114,7 @@
         </section>
 
         <!-- work process -->
-        <section class="container mx-auto mt-[32px] lg:mt-[120px]">
+        <section class="container mx-auto mt-[32px] lg:mt-[120px] lg:pb-28">
             <div class="space-y-5">
                 <button class="btn bg-white flex items-center rounded-[32px] mx-auto">
                     <i class="fa-solid fa-arrow-right"></i>
@@ -158,6 +160,72 @@
             </div>
         </section>
     </main>
+
+    <!-- latest portfolio section -->
+    <section class="container mx-auto mt-[40px] lg:mt-[120px] px-2">
+        <div class="space-y-5">
+            <button class="btn bg-[#ABEF5F33] flex items-center rounded-[32px] mx-auto">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p class="font-bold">Explore our Latest works</p>
+            </button>
+            <h1 class="text-3xl lg:text-6xl font-bold text-center">Our Latest Portfolio</h1>
+            <p class="text-center text-[#494949] lg:w-1/2 mx-auto">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                wood, sleek metal accents.
+            </p>
+        </div>
+        <!-- image section -->
+        <div class="mt-4 lg:mt-10 grid grid-cols-1 lg:grid-cols-10 gap-5">
+            <!-- 1 -->
+            <div class="flex flex-col lg:flex-row items-center p-5 rounded-xl border lg:col-span-7 lg:order-1">
+                <img class="h-full" src="assets/img1.png" alt="">
+                <div class="space-y-3 lg:space-y-3 mt-3 lg:mt-0 lg:ml-5">
+                    <h2 class="card-title text-xl lg:text-2xl font-extrabold">Commercial</h2>
+                    <p class="font-medium text-[#737373]">
+                        The barn house captivates with its blend of rustic charm and modern. The barn house captivates
+                        with its blend of rustic charm and modern .
+                    </p>
+                    <div class="flex items-center">
+                        <p class="lg:text-xl font-extrabold mr-2">View Details</p>
+                        <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-2 -rotate-45"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="p-5 rounded-xl border block lg:col-span-3 lg:order-2">
+                <img class="w-full" src="assets/img2.png" alt="">
+            </div>
+            <!-- 5 -->
+            <div class="p-5 rounded-xl border lg:col-span-2 block lg:order-5">
+                <img class="w-full" src="assets/img5.png" alt="">
+            </div>
+            <!-- 4 -->
+            <div class="flex flex-col lg:flex-row items-center p-5 rounded-xl border lg:col-span-6 lg:order-4">
+                <img class="h-full" src="assets/img4.png" alt="">
+                <div class="space-y-3 mt-3 lg:mt-0 lg: lg:ml-5">
+                    <h2 class="card-title text-xl lg:text-2xl font-extrabold">Commercial</h2>
+                    <p class="font-medium text-[#737373]">
+                        The barn house captivates with its blend of rustic charm and modern. The barn house captivates
+                        with its blend of rustic charm and modern .
+                    </p>
+                    <div class="flex items-center">
+                        <p class="lg:text-xl font-extrabold mr-2">View Details</p>
+                        <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-2 -rotate-45"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="p-5 rounded-xl border lg:col-span-2 block lg:order-3">
+                <img class="w-full" src="assets/img3.png" alt="">
+            </div>
+            <!-- for mobile device -->
+            <div class="p-5 rounded-xl border lg:hidden block">
+                <img class="w-full" src="assets/img5.png" alt="">
+            </div>
+            
+        </div>
+
+    </section>
     <footer>
 
     </footer>
